@@ -26,7 +26,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Configure Postgres database; the full username is username@servername,
 # which we construct using the DBHOST value.
-print(os.environ['ResourceConnector_DB_SubResourceName'], os.environ['ResourceConnector_DB_TargetServiceEndpoint'], os.environ['ResourceConnector_DB_Name'], os.environ['ResourceConnector_DB_Key'])
+# print(os.environ['ResourceConnector_DB_SubResourceName'], os.environ['ResourceConnector_DB_TargetServiceEndpoint'], os.environ['ResourceConnector_DB_Name'], os.environ['ResourceConnector_DB_Key'])
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
